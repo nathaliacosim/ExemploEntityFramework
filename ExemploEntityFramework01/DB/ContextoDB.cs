@@ -21,9 +21,6 @@ namespace ExemploEntityFramework01.DB
                         .HasOne(p => p.Endereco)
                         .WithOne()
                         .HasForeignKey<Pessoa>(p => p.EnderecoId);
-
-            
-                 
         }
     }
 }
